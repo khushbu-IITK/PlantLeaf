@@ -28,8 +28,11 @@ RESCALE_255 = False
 
 @st.cache_resource
 def load_model():
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    model_path = os.path.join(BASE_DIR, "model.h5")
+    model = tf.keras.models.load_model(model_path, compile=False)
     # compile=False avoids issues if custom metrics/loss were used
-    return tf.keras.models.load_model("model.h5", compile=False)
+    return  model # tf.keras.models.load_model("model.h5", compile=False)
 
 
 def preprocess_pil(pil_img: Image.Image) -> np.ndarray:
