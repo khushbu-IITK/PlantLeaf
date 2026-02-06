@@ -1,3 +1,6 @@
+Check the Demo App here: https://plantleaf-potatodiseaseclassifier.streamlit.app/ 
+
+## Description
 Here are two Component of the PlantLeaf project.
 1. Potato Disease Classifier
 2. Plant leaf disease classification model
