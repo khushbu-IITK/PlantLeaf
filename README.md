@@ -1,4 +1,12 @@
-Check the Demo App here: https://plantleaf-potatodiseaseclassifier.streamlit.app/ 
+## Streamlit App 
+Check the deployed streamlit interface here: https://plantleaf-potatodiseaseclassifier.streamlit.app/ 
+
+## Sample Example of Streamlit interface:
+<img width="610" height="831" alt="image" src="https://github.com/user-attachments/assets/1d3faa0e-1a1b-492c-ba85-0237099a3221" />
+
+<img width="647" height="526" alt="image" src="https://github.com/user-attachments/assets/5369e50a-f54f-4610-9ab8-fe67e9f78ec9" />
+
+
 
 ## Description
 Here are two Component of the PlantLeaf project.
